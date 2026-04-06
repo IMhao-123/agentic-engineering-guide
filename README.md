@@ -31,7 +31,7 @@ Agentic Engineering 研究系统/
 ├── 01-基础概念/
 │   ├── 什么是Vibe Coding.md            ← Vibe Coding 的定义、特征与局限
 │   ├── 什么是Agentic Engineering.md    ← Agentic Engineering 的定义与核心理念
-│   └── 范式演进：从Vibe Coding到Agentic Engineering.md  ← 术语演变历史
+│   └── 范式演进.md                     ← 术语演变历史
 ├── 02-核心理论/
 │   ├── 代理架构模式.md                  ← Anthropic 五种核心模式
 │   ├── 代理循环设计.md                  ← Agentic Loop 设计原理
@@ -44,7 +44,7 @@ Agentic Engineering 研究系统/
 │   ├── 安全与权限隔离.md                ← 安全威胁模型与防护
 │   └── 监控与可观测性.md                ← 追踪、日志、评估
 ├── 04-成熟度框架/
-│   └── Agno代理软件五级成熟度模型.md     ← 从无状态到生产运行的演进路径
+│   └── Agno五级成熟度模型.md            ← 从无状态到生产运行的演进路径
 ├── 05-工具生态/
 │   ├── 主流编码代理工具.md              ← Claude Code、Codex CLI、Gemini CLI 等
 │   ├── 主流Agent框架.md                ← OpenAI Agents SDK、LangGraph、Agno 等
@@ -58,9 +58,15 @@ Agentic Engineering 研究系统/
 │   ├── 学术论文追踪.md                  ← arXiv 等平台的关键论文
 │   ├── 行业动态与趋势.md                ← 框架更新、产品发布
 │   └── 信息获取渠道指南.md              ← 一手信息源推荐
-└── 08-参考资料/
-    └── 引用与参考源.md                  ← 所有引用的完整列表
-```
+├── 08-参考资料/
+│   └── 引用与参考源.md                  ← 所有引用的完整列表
+└── 09-技术实现/
+    ├── 00-快速启动.md                  ← 20 分钟体验核心原则
+    ├── 01-项目规划与设计.md             ← SPEC 编写与测试策略
+    ├── 02-从零构建一个项目.md           ← TDD 完整实战演练
+    ├── 03-隐性陷阱与质量保证.md         ← 测试是核心使能条件
+    └── 04-进阶与生产部署.md             ← 并行代理、CI/CD、监控
+```           
 
 ## 核心发现速览
 
